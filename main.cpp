@@ -28,13 +28,13 @@ int main()
 		for (int j=0; j<M; j++)
 		{
 			// TODO: read each score and accumulate sum
-			cin >> name;
+			cin >> score;
 			sum += score;
 		}
 
 		// TODO: calculate average and print name, sum, average
-		average = (double) sum / N;
-		cout << name << " " << sum << " " << average << endl;
+		average = (double) sum / M;
+		cout << student_name << " " << sum << " " << average << endl;
 	}
 
 	return 0;
